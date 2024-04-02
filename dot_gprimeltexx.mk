@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 # Inherit from common
-$(call inherit-product, device/samsung/gprimelte-common/nad.mk)
+$(call inherit-product, device/samsung/gprimelte-common/dot.mk)
 
 $(call inherit-product, device/samsung/gprimeltexx/device.mk)
 
