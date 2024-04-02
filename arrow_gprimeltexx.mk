@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 # Inherit from common
-$(call inherit-product, device/samsung/gprimelte-common/nad.mk)
+$(call inherit-product, device/samsung/gprimelte-common/arrow.mk)
 
 $(call inherit-product, device/samsung/gprimeltexx/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gprimeltexx
-PRODUCT_NAME := nad_gprimeltexx
+PRODUCT_NAME := arrow_gprimeltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G530FZ
 PRODUCT_MANUFACTURER := samsung
